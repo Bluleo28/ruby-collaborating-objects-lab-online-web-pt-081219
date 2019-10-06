@@ -1,5 +1,5 @@
 describe 'Song' do
-  
+
   before(:example) {
     Song.class_variable_set(:@@all, [])
   }
@@ -72,6 +72,4 @@ describe 'Song' do
       expect(Artist.all.length).to eq(1)
     end
   end
-end
-
-
+end 
